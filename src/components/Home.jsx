@@ -18,13 +18,13 @@ export default function Home() {
   return (
     <div className="container d-flex flex-column justify-content-center align-items-center vh-100 text-center">
       <h1 className="mb-3">Online Learning Platform</h1>
-      <p className="mb-4">Your smart assistant on the web</p>
+      <p className="mb-4">Before 'Calling me' You have to ask me to recive the call through 'Chat with us'</p>
       <div className="w-100">
         {role === "admin" && (
           <button className="btn btn-lg btn-danger w-100 mb-3">Admin Dashboard</button>
         )}
-        <a href="https://meet.jit.si/io9"><button className="btn btn-lg btn-success w-100 mb-3">Join Live Class</button></a>
-        <button className="btn btn-lg btn-dark w-100" onClick={handleHelpClick}>Help</button>
+        <a href="https://meet.jit.si/io9"><button className="btn btn-lg btn-success w-100 mb-3">Call me</button></a>
+        <button className="btn btn-lg btn-dark w-100" onClick={handleHelpClick}>Chat with us</button>
       </div>
     </div>
   );
