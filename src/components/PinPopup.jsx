@@ -31,7 +31,7 @@ export default function PinPopup({ onAuthenticated }) {
     <div className="position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-75 d-flex justify-content-center align-items-center">
       <div className="bg-white p-4 rounded shadow" style={{ maxWidth: "400px", width: "100%" }}>
         <h4 className="mb-3">Enter Access PIN</h4>
-        <p>Shreya Your pin is: 1234</p>
+        <p>Your pin is: 1234</p>
         <input
           type="password"
           className="form-control mb-2"
